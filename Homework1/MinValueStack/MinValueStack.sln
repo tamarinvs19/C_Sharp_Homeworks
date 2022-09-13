@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinValueStack", "MinValueStack\MinValueStack.csproj", "{FF8CF78C-3060-4E82-8FB5-135E2E0DFCE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF8CF78C-3060-4E82-8FB5-135E2E0DFCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8CF78C-3060-4E82-8FB5-135E2E0DFCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8CF78C-3060-4E82-8FB5-135E2E0DFCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8CF78C-3060-4E82-8FB5-135E2E0DFCE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
