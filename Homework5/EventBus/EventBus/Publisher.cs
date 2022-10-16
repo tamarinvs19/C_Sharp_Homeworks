@@ -6,23 +6,28 @@ public interface IPublisher
 {
     public string getName();
     public event EventHandler<Post> OnPost;
-    public void Post();
+    public void Post(string title);
 }
 
-public class Publisher
+public class Publisher : IPublisher
 {
-    public readonly string Name;
+    private readonly string _name;
 
     public Publisher(string name)
     {
-        Name = name;
+        _name = name;
+    }
+
+    public string getName()
+    {
+        return _name;
     }
 
     public event EventHandler<Post> OnPost = delegate {  };
 
     public void Post(string title)
     {
-        Console.WriteLine($"Create new post from {Name} at {DateTime.Now}!");
-        OnPost.Invoke(this, new Post(Name, title));
+        Console.WriteLine($"Create new post from {getName()} at {DateTime.Now}!");
+        OnPost.Invoke(this, new Post(getName(), title));
     }
 }

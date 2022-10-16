@@ -31,5 +31,9 @@ public class Tests
         publisher2.Post("Random post #3");
         publisher1.Post("Random post #4");
         publisher2.Post("Random post #5");
+        
+        eventBus.Unsubscribe(publisher1, subscriber1);
+        
+        publisher1.Post("Random post #6");
     }
 }
