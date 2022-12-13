@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleepSort", "SleepSort\SleepSort.csproj", "{17EF5C16-19C3-4074-9D83-2543D438DF5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17EF5C16-19C3-4074-9D83-2543D438DF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EF5C16-19C3-4074-9D83-2543D438DF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EF5C16-19C3-4074-9D83-2543D438DF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EF5C16-19C3-4074-9D83-2543D438DF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
